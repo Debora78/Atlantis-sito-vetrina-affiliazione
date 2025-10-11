@@ -1,0 +1,15 @@
+/* --------------------------------- */
+/* 1. Definizione del font Roboto (Regolare 400) */
+/* --------------------------------- */
+
+@font-face {
+  /* Scegli un nome univoco per la font-family */
+  font-family: "Roboto Atlantis";
+
+  /* Il percorso è relativo a style.css, quindi risali di una cartella (../) */
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+
+  font-weight: 400; /* Definisci il peso */
+  font-style: normal;
+  font-display: swap; /* Migliora l'esperienza utente durante il caricamento */
+}
