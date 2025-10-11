@@ -1,15 +1,32 @@
-/* --------------------------------- */
-/* 1. Definizione del font Roboto (Regolare 400) */
-/* --------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-@font-face {
-  /* Scegli un nome univoco per la font-family */
-  font-family: "Roboto Atlantis";
+.img-header {
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: whitesmoke;
+  /*  background-color: red; */
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 100px;
+}
+.title-shadow {
+  color: #6b6a6a;
 
-  /* Il percorso è relativo a style.css, quindi risali di una cartella (../) */
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
-
-  font-weight: 400; /* Definisci il peso */
-  font-style: normal;
-  font-display: swap; /* Migliora l'esperienza utente durante il caricamento */
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ee61a7 0px 0px 20px, #ee61a7 0px 0px 30px, #ee61a7 0px 0px 40px,
+    #ee3e96 0px 0px 50px, #ee3e96 0px 0px 75px;
 }
