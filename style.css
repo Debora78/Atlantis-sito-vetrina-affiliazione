@@ -40,7 +40,7 @@ h1 {
 }
 .title-shadow {
   /*  color: #6b6a6a; */
-  color: #000000;
+  /* color: #000000; */
   /*  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c; */
   /*  text-shadow: 2px 2px 0 #ff7f50, 4px 4px 0 #cd5c5c; tramonto*/
 
@@ -55,11 +55,32 @@ h1 {
 
   /* Puoi usare anche il tuo vecchio formato con colori più caldi: */
   /* text-shadow: 2px 2px 0 #FFD700, 4px 4px 0 #FF8C00; */
-  text-shadow: 2px 2px 0 #e6e6fa,
-    /* Lavanda chiaro/Argento pallido */ 4px 4px 0 #add8e6; /* Celeste chiaro */
+  /*  text-shadow: 2px 2px 0 #e6e6fa, */
+  /* Lavanda chiaro/Argento pallido 4px 4px 0 #add8e6; /* Celeste chiaro */
 
   /*  color: #6b6a6a; */
   /*  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
     #ee61a7 0px 0px 20px, #ee61a7 0px 0px 30px, #ee61a7 0px 0px 40px,
     #ee3e96 0px 0px 50px, #ee3e96 0px 0px 75px; */
+
+  /* 1. Tipografia e Dimensione */
+  font-family: "Times New Roman", serif; /* O un font Google come 'Cinzel' o 'Garamond' */
+  font-size: 8rem; /* Regola la dimensione a seconda delle necessità */
+  font-weight: 900;
+  text-align: center;
+  color: #ffd700; /* Oro base per fallback */
+  background: linear-gradient(
+    180deg,
+    #f0e2b3 0%,
+    /* Luce brillante */ #c6a96e 30%,
+    /* Tonalità media */ #826d48 50%,
+    /* Ombra scura */ #c6a96e 70%,
+    /* Tonalità media */ #f0e2b3 100% /* Luce brillante */
+  );
+  text-shadow:
+        /* Profondità 3D */ 1px 1px 0 #5b4a34, 2px 2px 0 #5b4a34,
+    3px 3px 0 #5b4a34, 4px 4px 0 #5b4a34, 5px 5px 0 #5b4a34, 6px 6px 0 #4f402c,
+    /* Ombra scura più marcata */ 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
+
+/* METTERE LA STESSA SHADOW ALLA NAVBAR CON SFONDO SCURO */
